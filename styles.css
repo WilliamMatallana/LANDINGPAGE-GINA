@@ -1,0 +1,143 @@
+body {
+  font-family: Josefin Sans, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #cc0000;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #c00;
+  font-size: large;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  margin-top: auto;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.feature {
+  width: 300px;
+  height: 500px;
+  border: 2px solid #cc0000;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature.top {
+  text-transform: uppercase;
+}
+
+.feature img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  flex: 1;
+}
+
+button.cta-button {
+  background-color: #FC873F;
+  color: #fff;
+  border: none;
+  padding:.5rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius:.5rem;
+}
+
+.boton{
+  background-color: #FC873F;
+  color: #fff;
+  border: none;
+  padding:.5rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius:.5rem;
+  margin: 20px 600px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.icons {
+  margin-top: 1rem;
+  margin-bottom: 1rem ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.content img {
+  width: 50%;
+}
+
+.content h2 {
+  margin-left: 20px;
+}
+
+.about-me {
+  font-family: Josefin Sans, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.about-me h1 {
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.about-me p {
+  margin: 20px 100px;
+}
+
+.class-list{
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info{
+  margin-top: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
